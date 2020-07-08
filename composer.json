@@ -1,0 +1,36 @@
+{
+    "name": "bling/omnipay-rms",
+    "description": "RMS gateway for the Omnipay payment processing library",
+    "keywords": [
+        "rms",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Ziemniewicz",
+            "email": "adam.ziemniewicz@bling.sh",
+            "homepage": "https://bling.sh"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Rms\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~3.0",
+        "squizlabs/php_codesniffer": "~3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    },
+    "prefer-stable": true
+}
